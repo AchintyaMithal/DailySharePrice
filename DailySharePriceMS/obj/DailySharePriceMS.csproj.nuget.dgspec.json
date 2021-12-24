@@ -54,9 +54,9 @@
               "target": "Package",
               "version": "[5.0.7, )"
             },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[1.10.14, )"
+              "version": "[13.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

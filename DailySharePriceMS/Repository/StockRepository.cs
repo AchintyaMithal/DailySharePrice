@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace DailySharePriceMS.Repository
 {
@@ -11,7 +12,10 @@ namespace DailySharePriceMS.Repository
     {
         public DailyStockDetails GetDailyShare(string stockName)
         {
-            DailyStockDetails stockDetails =  DbHelper.dailyStockDetails.FirstOrDefault(c => c.StockName.ToLower() == stockName.ToLower());
+            string file = System.IO.File.ReadAllText(@"StockData.json");
+           // object obj = JsonConvert.DeserializeObject(file);
+            var model = JsonConvert.DeserializeObject<List<DailyStockDetails>>(file);
+            DailyStockDetails stockDetails =  model.FirstOrDefault(c => c.StockName.ToLower() == stockName.ToLower());
             return stockDetails == null ? null : stockDetails;
         }
     }
