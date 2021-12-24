@@ -15,3 +15,11 @@ WORKDIR /app
 COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet", "DailySharePriceMS.dll"]
 
+
+#
+#FROM build AS publish
+#RUN dotnet publish "DailySharePriceMS.csproj" -c Release -o /app/publish
+#
+#FROM base AS final
+#WORKDIR /app
+#COPY --from=publish /app/publish .
