@@ -378,3 +378,4 @@ F:\New folder (2)\Share Price Microservice\DailySharePriceMS\obj\Debug\net5.0\Da
 F:\New folder (2)\Share Price Microservice\DailySharePriceMS\obj\Debug\net5.0\ref\DailySharePriceMS.dll
 F:\New folder (2)\Share Price Microservice\DailySharePriceMS\obj\Debug\net5.0\DailySharePriceMS.pdb
 F:\New folder (2)\Share Price Microservice\DailySharePriceMS\obj\Debug\net5.0\DailySharePriceMS.genruntimeconfig.cache
+F:\New folder (2)\Share Price Microservice\DailySharePriceMS\bin\Debug\net5.0\deployment.yml

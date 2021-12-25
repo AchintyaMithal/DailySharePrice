@@ -1,0 +1,33 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dailysharepricems
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dailysharepricems
+  template:
+    metadata:
+      labels:
+        app: dailysharepricems
+    spec:
+      containers:
+      - name: dailysharepricems
+        image: mycontainerreg25.azurecr.io/dailyshareimage:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: webapisvssecret
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: dailysharepricems-service
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: dailysharepricems
