@@ -720,3 +720,4 @@ F:\New folder (2)\Share Price Microservice\DailySharePriceTests\obj\Debug\net5.0
 F:\New folder (2)\Share Price Microservice\DailySharePriceTests\obj\Debug\net5.0\ref\DailySharePriceTests.dll
 F:\New folder (2)\Share Price Microservice\DailySharePriceTests\obj\Debug\net5.0\DailySharePriceTests.pdb
 F:\New folder (2)\Share Price Microservice\DailySharePriceTests\obj\Debug\net5.0\DailySharePriceTests.genruntimeconfig.cache
+F:\New folder (2)\Share Price Microservice\DailySharePriceTests\bin\Debug\net5.0\StockData.json
