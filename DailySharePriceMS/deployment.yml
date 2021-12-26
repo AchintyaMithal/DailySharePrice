@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: dailysharepricems
-        image: mycontainerreg25.azurecr.io/dailyshareimage:latest
+        image: pmscontainerreg.azurecr.io/dailysharepriceimage:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
