@@ -2,12 +2,36 @@
   {
     "StockId": 1001,
     "StockName": "HDFC",
-    "StockValue": 10000
+    "StockValue": 1000
   },
   {
     "StockId": 1002,
     "StockName": "AXIS",
-    "StockValue": 20000
+    "StockValue": 2000
+  },
+  {
+    "StockId": 1003,
+    "StockName": "Paytm",
+    "StockValue": 550
+  },
+  {
+    "StockId": 1004,
+    "StockName": "Zomato",
+    "StockValue": 600
+  },
+  {
+    "StockId": 1005,
+    "StockName": "Infosys",
+    "StockValue": 700
+  },
+  {
+    "StockId": 1006,
+    "StockName": "Wipro",
+    "StockValue": 900
+  },
+  {
+    "StockId": 1007,
+    "StockName": "TCS",
+    "StockValue": 690
   }
-
 ]
